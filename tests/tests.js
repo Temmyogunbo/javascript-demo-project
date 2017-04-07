@@ -2,8 +2,7 @@
 
 'use strict'
 
-var chai = require('chai');
-    chai.expect;
+var expect = require('chai').expect;
 
 var myApp = require('../app/library.js');
 
