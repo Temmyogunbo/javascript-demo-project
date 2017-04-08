@@ -8,7 +8,7 @@ var chai = require('chai');
 var myApp = require('../app/library.js');
 
 describe("Arithmetic Functionality", function() {
-  it("should return 2 as average for 1, 2, 3", function() {
+  it("should return 2 as average for 1, 2,3", function() {
     myApp.computeAverage(1,2,3).should.equal(2);
   })
   it("should return 5 as average for 3, 7, 5", function() {
