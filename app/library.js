@@ -10,7 +10,7 @@ module.exports = {
  
  /* Find the factorial of an integer */
  computeFactorial: function(num) {
-   var factorial=1;
+   var factorial = 1;
    for(var i=num; i>0; i--){
    	factorial *=i
    }
